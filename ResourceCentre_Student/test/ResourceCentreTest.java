@@ -228,7 +228,7 @@ public class ResourceCentreTest {
 		assertFalse(chromebookList.get(0).getIsAvailable());
 		assertEquals(chromebookList.get(0).getDueDate(),"8-8-2020");
 				
-		//error condition
+		//error condition 
 		ok = ResourceCentre.doLoanChromebook(chromebookList, "CB0011", "8-8-2020" );
 		assertFalse("Test if an same item is NOT ok to loan again?", ok);	
 				
